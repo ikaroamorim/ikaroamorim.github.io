@@ -54,29 +54,6 @@ header{
 }
 
 
-
-/*
-.banner-content>ul{
-    margin-top: 60px;
-}
-
-
-.banner-content>ul>li{
-    padding: 20px;
-    margin: 25px 10px;
-    border-radius: 40px;
-    font-size: 30px;
-    background-color: rgba(0,0,0,0.6);
-    transition: 0.5s;
-    display: inline;
-}
-
-.banner-content>ul>li:hover{
-    padding: 30px;
-    border-radius: 60px;
-}
-*/
-
 .banner-social-networks i{
     display: flex;
     justify-content: center;
@@ -98,6 +75,15 @@ header{
     padding: 30px;
     border-radius: 60px;
     background-color: rgba(0, 128, 128, 0.60);
+}
+
+.scroll-arrow{
+    position: absolute;
+    font-size: 50px;
+    bottom: 20px;
+    right: 50%;
+    transform: translate(50%);
+    color: #ccc;
 }
 
 
