@@ -38,3 +38,23 @@
     background-size: cover;
 }
 
+/*.school > .container{background-color: brown;}*/
+
+.school > .container > .school-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 75px 0;
+}
+
+.school > .container > .school-wrapper > .school-item{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 30px;
+    -webkit-box-shadow: 20px 20px 9px 1px rgba(0,0,0,0.7);
+    -moz-box-shadow: 20px 20px 9px 1px rgba(0,0,0,0.7);
+    box-shadow: 20px 20px 9px 1px rgba(0,0,0,0.7);
+}

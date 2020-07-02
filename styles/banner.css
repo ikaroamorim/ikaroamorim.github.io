@@ -33,7 +33,7 @@ header{
 }
 
 .banner-content>h3{
-    color: teal;
+    color: #00bfa5;
     font-size: 56px;
 }
 
@@ -43,10 +43,15 @@ header{
 
 .banner-content>p>a{
     text-decoration: none;
-    color: royalblue;
+    color: #64ffda;
 }
+
+.banner-content>p>a:hover{
+    text-decoration: underline;
+}
+
 .banner-social-networks{
-    color: white;
+    color:#ccc;
     height: 150px;
     display: flex;
     justify-content: center;
