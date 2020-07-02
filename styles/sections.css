@@ -1,0 +1,40 @@
+.container{
+    margin: 0 auto;
+    max-width: 1366px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about > .section-banner{
+    background-image: url(../images/about-bg.png);
+    background-size: cover;
+}
+
+.about > .container >.pic{
+    height: 250px;
+    width:250px;
+    min-width: 250px;
+    border-radius: 50%;
+    background-image: url(../images/photo.png);
+    background-size: cover;
+    margin: 100px 0;
+}
+
+.about > .container > .texto{
+    max-width: 900px;
+    text-align: justify;
+}
+
+.about > .container > .texto > p{
+    margin-top: 10px;
+    text-indent: 50px;
+}
+
+
+.school > .section-banner{
+    background-image: url(../images/school-bg.png);
+    background-size: cover;
+}
+
