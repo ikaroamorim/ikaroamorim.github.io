@@ -1,4 +1,4 @@
-.container{
+.container-flex{
     margin: 0 auto;
     max-width: 1366px;
     display: flex;
@@ -7,31 +7,44 @@
     align-items: center;
 }
 
+.container{
+    margin: 0 auto;
+    max-width: 1366px;
+}
+
+/* 
+About
+*/
+
 .about > .section-banner{
     background-image: url(../images/about-bg.png);
     background-size: cover;
 }
 
-.about > .container >.pic{
+.about .pic{
     height: 250px;
     width:250px;
     min-width: 250px;
     border-radius: 50%;
     background-image: url(../images/photo.png);
     background-size: cover;
-    margin: 100px 0;
+    margin: 140px 0;
 }
 
-.about > .container > .texto{
+.about .texto{
     max-width: 900px;
     text-align: justify;
 }
 
-.about > .container > .texto > p{
+.about .texto > p{
     margin-top: 10px;
     text-indent: 50px;
 }
 
+
+/* 
+School
+*/
 
 .school > .section-banner{
     background-image: url(../images/school-bg.png);
@@ -40,16 +53,16 @@
 
 /*.school > .container{background-color: brown;}*/
 
-.school > .container > .school-wrapper{
+.school > .container-flex > .school-wrapper{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 75px 0;
+    margin: 150px 0;
 }
 
-.school > .container > .school-wrapper > .school-item{
+.school > .container-flex > .school-wrapper > .school-item{
     padding: 20px;
     background-color: #fff;
     border: 1px solid #999;
@@ -59,6 +72,10 @@
     box-shadow: 20px 20px 9px 1px rgba(0,0,0,0.7);
 }
 
+
+/*
+Courses
+*/
 .courses > .section-banner{
     background-image: url(../images/course-bg.png);
     background-size: cover;
@@ -69,13 +86,13 @@
     height: 200px;
 }
 
-.courses > .container > .mcse {
-    margin: 75px 0;
+.courses > .container-flex > .mcse {
+    margin: 140px 0;
 
 }
 
-.courses > .container > .mcsa{
-    margin: 75px 0;
+.courses > .container-flex > .mcsa{
+    margin: 140px 0;
 
 }
 
@@ -84,9 +101,139 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-.courses .container h3{
+.courses .container-flex h3{
     width: 60%;
 }
 
+/*
+Experiência
+*/
+.experience > .section-banner{
+    background-image: url(../images/experience-bg.png);
+    background-size: cover;
+}
+
+.experience > .container > .headers{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.experience > .container > .headers > .headers-item{
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    border: 1px solid #999;
+    border-bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    background-color: #006064;
+    color: #cccccc;
+}
+
+.experience > .container > .headers > .active{
+    background-color: #00e5ff;
+    color: black;
+}
+
+.experience > .container > .headers > .headers-item:last-child{
+    margin-right: 0;
+}
+
+
+.experience > .container > .contents{
+    width: 100%;
+    min-height: 400px;
+    background-color: #ccc;
+    margin-bottom: 100px;
+    border: 1px solid #999;
+    border-top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+}
+
+
+.experience > .container > .contents > .contents-item{
+    width: 100%;
+    height:400px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.experience > .container > .contents > .content-active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.experience > .container > .contents > .contents-item > .contents-logo{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.experience > .container > .contents > .contents-item > .contents-texto{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.experience > .container > .contents > .contents-item > .contents-texto > p{
+    text-align: justify;
+    line-height: 24px;
+}
+
+/*
+Projetos
+*/
+.projects > .section-banner{
+    background-image: url(../images/projects-bg.png);
+    background-size: cover;
+
+}
+
+
+/*
+Contatos
+*/
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: #006064;
+    color:#ccc;
+    text-align: center;
+}
+
+footer .social{
+    float: right;
+}
+
+footer h3, footer a{
+    line-height: 60px;
+}
+
+footer i{
+    font-size: 22px;
+    color: #ccc;
+    margin-right: 15px;
+}

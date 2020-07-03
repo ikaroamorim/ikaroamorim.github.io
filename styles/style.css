@@ -19,6 +19,7 @@ section > .section-banner{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 section > .section-banner > h3{
