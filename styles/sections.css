@@ -58,3 +58,35 @@
     -moz-box-shadow: 20px 20px 9px 1px rgba(0,0,0,0.7);
     box-shadow: 20px 20px 9px 1px rgba(0,0,0,0.7);
 }
+
+.courses > .section-banner{
+    background-image: url(../images/course-bg.png);
+    background-size: cover;
+}
+
+.courses .logo{
+    width: 200px;
+    height: 200px;
+}
+
+.courses > .container > .mcse {
+    margin: 75px 0;
+
+}
+
+.courses > .container > .mcsa{
+    margin: 75px 0;
+
+}
+
+.courses .wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.courses .container h3{
+    width: 60%;
+}
+
