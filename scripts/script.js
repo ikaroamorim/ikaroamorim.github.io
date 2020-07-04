@@ -3,8 +3,10 @@ $(document).ready(function () {
         if($(window).scrollTop() > $(window).innerHeight()){
             console.log("Executou")
             $("#navbar").addClass("nav-fixed");
+            $("#menumobile").addClass("nav-fixed");
         }else{
             $("#navbar").removeClass("nav-fixed");
+            $("#menumobile").removeClass("nav-fixed");
         }
         console.log($(window).scrollTop());
     })
@@ -37,6 +39,13 @@ $(document).ready(function () {
         $('#ctn-1').removeClass('content-active');
         $('#ctn-2').removeClass('content-active');
         $('#ctn-3').addClass('content-active');
+    })
+
+    $("#menu-btn").on("click", function(){
+        $('#menu-items').toggle(400, function(){
+            /*$('#navreplace').css("height","300px");*/
+        });
+
     })
 
 

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 
 
 </head>
@@ -44,9 +45,12 @@
             </div><!-- Scroll Arrow-->
         </div><!-- Banner Filter -->
     </header>
-    <div class="navreplace" style="min-height: 100px;">
+
+
+
+    <div class="navreplace" id="navreplace">
         <!-- Menu de Navegação -->
-        <nav id="navbar" class="nav-fixed">
+        <nav id="navbar" >
             <div class="logo">
                 <h2>Ikaro</h2>
             </div><!-- logo-->
@@ -59,10 +63,18 @@
                     <li><a href="#projects">Projetos</a></li>
                 </ul>
             </div><!-- Menu horizontal -->
+            
         </nav>
-
-
-
+        <div class="menumobile" id="menumobile">
+            <i class="fa fa-bars" aria-hidden="true" id="menu-btn"></i>
+            <ul id="menu-items">
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#school">Escolaridade</a></li>
+                <li><a href="#courses">Certificações</a></li>
+                <li><a href="#experience">Experiência Profissional</a></li>
+                <li><a href="#projects">Projetos</a></li>
+            </ul>
+        </div>
     </div>
 
     <!-- Seção Sobre mim-->
