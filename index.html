@@ -44,25 +44,29 @@
             </div><!-- Scroll Arrow-->
         </div><!-- Banner Filter -->
     </header>
+    <div class="navreplace" style="min-height: 100px;">
+        <!-- Menu de Navegação -->
+        <nav id="navbar" class="nav-fixed">
+            <div class="logo">
+                <h2>Ikaro</h2>
+            </div><!-- logo-->
+            <div class="menu">
+                <ul>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#school">Escolaridade</a></li>
+                    <li><a href="#courses">Certificações</a></li>
+                    <li><a href="#experience">Experiência Profissional</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                </ul>
+            </div><!-- Menu horizontal -->
+        </nav>
 
-    <!-- Menu de Navegação -->
-    <nav>
-        <div class="logo">
-            <h2>Ikaro</h2>
-        </div><!-- logo-->
-        <div class="menu">
-            <ul>
-                <li><a href="http://">Sobre mim</a></li>
-                <li><a href="http://">Escolaridade</a></li>
-                <li><a href="http://">Certificações</a></li>
-                <li><a href="http://">Experiência Profissional</a></li>
-                <li><a href="http://">Projetos</a></li>
-            </ul>
-        </div><!-- Menu horizontal -->
-    </nav>
+
+
+    </div>
 
     <!-- Seção Sobre mim-->
-    <section class="about">
+    <section class="about" id="about">
         <div class="section-banner">
             <h3>Sobre Mim</h3>
         </div><!-- Banner -->
@@ -86,7 +90,7 @@
     </section><!-- Seção Sobre mim-->
 
     <!-- Seção Escolaridade-->
-    <section class="school">
+    <section class="school" id="school">
         <div class="section-banner">
             <h3>Escolaridade</h3>
         </div><!-- Banner -->
@@ -116,7 +120,7 @@
     </section> <!-- Seção Escolaridade-->
 
     <!-- Seção Cursos-->
-    <section class="courses">
+    <section class="courses" id="courses">
         <div class="section-banner">
             <h3>Certificações e Cursos</h3>
         </div><!-- Banner -->
@@ -160,18 +164,18 @@
     </section><!-- Seção de Certificações e Cursos -->
 
     <!-- Seção Experiência Profissional-->
-    <section class="experience">
+    <section class="experience" id="experience">
         <div class="section-banner">
             <h3>Experiência</h3>
         </div>
         <div class="container">
             <div class="headers">
-                <div class="headers-item">Siemens</div>
-                <div class="headers-item">People</div>
-                <div class="headers-item active">Class Solutions</div>
+                <div class="headers-item" id="btn-1">Siemens</div>
+                <div class="headers-item" id="btn-2" >People</div>
+                <div class="headers-item active" id="btn-3">Class Solutions</div>
             </div>
             <div class="contents">
-                <div class="contents-item">
+                <div class="contents-item" id="ctn-1">
                     <div class="contents-logo" style="background-image: url(/images/siemens-logo.png);"></div>
                     <div class="contents-texto">
                         <h3>Quality Management Internship</h3>
@@ -194,7 +198,7 @@
                             e entregar os produtos.</p>
                     </div>
                 </div>
-                <div class="contents-item">
+                <div class="contents-item" id="ctn-2">
                     <div class="contents-logo" style="background-image: url(/images/people-logo.png)">
                     </div>
                     <div class="contents-texto">
@@ -209,17 +213,19 @@
 
                     </div>
                 </div>
-                <div class="contents-item content-active">
+                <div class="contents-item content-active" id="ctn-3">
                     <div class="contents-logo" style="background-image: url(/images/class-logo.png)">
                     </div>
                     <div class="contents-texto">
                         <h3>Analista de Suporte e Infraestrutura</h3>
                         <p>2018 - Atual</p>
                         <p> <b>Responsabilidades:</b><br />
-                            • Gerenciamento e atendimento de chamados em atendimento B2B, em soluções customizadas ou não, relacionadas a todos Workloads do Office 365.<br/>
-                            • Administração de Farm (Windows Server, SQL Server, Sharepoint Server em servidores Locais ou na Nuvem), e administração de Tenant Office 365. <br/>
-                            • Elaboração de soluções em Sharepoint, Teams, One Drive e auxílio na adoção.<br/>
-                            • Implementação (Deploy) e Migração de Sistemas Sharepoint.<br/>
+                            • Gerenciamento e atendimento de chamados em atendimento B2B, em soluções customizadas ou
+                            não, relacionadas a todos Workloads do Office 365.<br />
+                            • Administração de Farm (Windows Server, SQL Server, Sharepoint Server em servidores Locais
+                            ou na Nuvem), e administração de Tenant Office 365. <br />
+                            • Elaboração de soluções em Sharepoint, Teams, One Drive e auxílio na adoção.<br />
+                            • Implementação (Deploy) e Migração de Sistemas Sharepoint.<br />
                             • Construção de relacionamento com cliente.
                         </p>
 
@@ -232,14 +238,14 @@
     </section>
 
     <!-- Seção Sobre Projetos-->
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="section-banner">
             <h3>Projetos</h3>
         </div>
         <div class="container-flex">
-            <h3>Em construção!</h3>
+            <div class="building"></div>
         </div>
-        
+
 
     </section>
 
@@ -248,11 +254,15 @@
             <a href="https://www.linkedin.com/in/ikaroamorimesilva/"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://twitter.com/ikaroamorim"><i class="fab fa-twitter"></i></a>
             <a href="mailto:ikaro.amorim@gmail.com"><i class="far fa-envelope"></i></a></div>
-        <div><h3>2020 - Ikaro Amorim</h3></div>
+        <div>
+            <h3>2020 - Ikaro Amorim</h3>
+        </div>
     </footer>
 
 
     <script src="https://kit.fontawesome.com/ddd89aa5d8.js" crossorigin="anonymous"></script>
+    <script src="/scripts/plugins/jquery-3.5.1.min.js"></script>
+    <script src="/scripts/script.js"></script>
 </body>
 
 </html

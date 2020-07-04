@@ -5,6 +5,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #006064;
+
+}
+
+.nav-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav>.logo{

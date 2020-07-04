@@ -124,6 +124,7 @@ Experiência
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
     
 }
 
@@ -212,9 +213,19 @@ Projetos
 
 }
 
+.projects > .container-flex > .building{
+    min-height: 500px;
+    width: 100%;
+    margin: 30px;
+    background-image: url(/images/building.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 /*
-Contatos
+Footer
 */
 footer{
     height: 60px;
