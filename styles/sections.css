@@ -214,6 +214,7 @@ Projetos
 
 }
 
+/* - Place holder em construção
 .projects > .container-flex > .building{
     min-height: 500px;
     width: 100%;
@@ -222,6 +223,57 @@ Projetos
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}*/
+
+.projects .projects-container > h4{
+    margin: 30px 0;
+    padding-left: 50px;
+    font-size: 24px;
+    color: #006064;
+    width: 100%;
+}
+
+.projects .projects-container .project-wrapper{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 9px 1px rgba(0,0,0,0.7);
+    -moz-box-shadow: 10px 10px 9px 1px rgba(0,0,0,0.7);
+    box-shadow: 10px 10px 9px 1px rgba(0,0,0,0.7);
+}
+
+.projects .projects-container .project-wrapper a{
+    text-decoration: none;
+}
+
+.projects .projects-container .project-wrapper img{
+    width: 300px;
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.projects .projects-container .project-wrapper .texto{
+    width: calc(100% - 350px);
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.projects .projects-container .project-wrapper .texto h4{
+    color: #006064;
+    margin-bottom: 10px;
+}
+
+.projects .projects-container .project-wrapper .texto p{
+    color: #777;
+}
+
+//Não exibir o placeholder até a criação de novo projeto
+.projects .projects-container .pholder{
+    display: none;
 }
 
 
