@@ -271,7 +271,7 @@ Projetos
     color: #777;
 }
 
-//Não exibir o placeholder até a criação de novo projeto
+/*Não exibir o placeholder até a criação de novo projeto*/
 .projects .projects-container .pholder{
     display: none;
 }
