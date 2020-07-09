@@ -45,8 +45,17 @@ $(document).ready(function () {
         $('#menu-items').toggle(400, function(){
             /*$('#navreplace').css("height","300px");*/
         });
-
     })
+
+    $("#mcse").on("click", function(){
+        $('#mcseexams').toggle(1000)
+    })
+
+    $("#mcsa").on("click", function(){
+        $('#mcsaexams').toggle(1000)
+    })
+
+
 
 
 

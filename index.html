@@ -61,6 +61,7 @@
                     <li><a href="#courses">Certificações</a></li>
                     <li><a href="#experience">Experiência Profissional</a></li>
                     <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contacts">Contatos</a></li>
                 </ul>
             </div><!-- Menu horizontal -->
 
@@ -73,6 +74,7 @@
                 <li><a href="#courses">Certificações</a></li>
                 <li><a href="#experience">Experiência Profissional</a></li>
                 <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contacts">Contatos</a></li>
             </ul>
         </div>
     </div>
@@ -124,7 +126,7 @@
                     <p>Engenharia da Computação</p>
                     <h4>Duração:</h4>
                     <p>5 anos</p>
-                    <h4>Conclusão:</h4>
+                    <h4>Conclusão Prevista:</h4>
                     <p>Julho/2022</p>
                 </div> <!-- Copntainer Univesp -->
             </div> <!-- Container para os cards dos cursos -->
@@ -137,26 +139,26 @@
             <h3>Certificações e Cursos</h3>
         </div><!-- Banner -->
         <div class="container-flex">
-            <div class="mcse">
+            <div class="mcse" id="mcse">
                 <div class="wraper">
                     <div class="mcselogo logo"
                         style="background-image: url(../images/MCSE.png); background-size: cover;"></div>
                     <h3>Microsoft® Certified Solutions Expert: Productivity</h3>
                 </div>
-                <div class="msceexams wraper">
+                <div class="msceexams wraper" id="mcseexams">
                     <div class="346 logo" style="background-image: url(../images/70339.png); background-size: cover;">
                     </div>
                     <h3>Exam 339: Managing Microsoft SharePoint Server 2016</h3>
                 </div>
             </div><!-- MCSE -->
-            <div class="mcsa">
+            <div class="mcsa" id="mcsa">
                 <div class="wraper">
                     <div class="mcsalogo logo"
                         style="background-image: url(../images/MCSA.png); background-size: cover;">
                     </div>
                     <h3>Microsoft® Certified Solutions Associate: Office 365</h3>
                 </div>
-                <div class="mscaexams">
+                <div class="mscaexams" id="mcsaexams">
                     <div class="wraper">
                         <div class="346 logo"
                             style="background-image: url(../images/70346.png); background-size: cover;">
@@ -281,8 +283,36 @@
                 </div> <!-- Projeto Wrapper -->
             </div> <!-- projetos Container-->
         </div>
+    </section>
 
+    <section class="contacts" id="contacts">
+        <div class="section-banner">
+            <h3>Contato</h3>
+        </div>
+        <div class="container">
+            <h4>Me envie uma mensagem</h4>
+            <form action="https://mailthis.to/ikarodeveloper" method="POST" encType="multipart/form-data">
+                <div class="formgroup">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                </div>
+                <div class="formgroup">
+                    <label for="reply">E-mail:</label>
+                    <input type="email" name="_replyto" id="reply" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="formgroup">
+                    <label for="message">Mensagem:</label>
+                    <textarea name="message" id="message" placeholder="Digite Sua Mensagem" required></textarea>
+                </div>
+                <input type="hidden" name="_subject" value="E-mail do Site Portifolio">
+                <input type="hidden" name="_honeypot" value="">
+                <input type="hidden" name="_confirmation" value="">
+                <div class="formgroup">
+                    <input type="submit" value="Enviar">
+                </div>
 
+            </form>
+        </div>
     </section>
 
     <footer>

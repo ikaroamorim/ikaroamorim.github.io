@@ -14,11 +14,12 @@
     }
 
     .about .pic{
-        margin: 70px;
+        margin: 40px;
     }
 
     .about .texto{
-        margin: 0 20px 70px 20px ;
+        margin: 0 0 70px 0 ;
+        width: 90%;
     }
 
     .school > .container-flex > .school-wrapper{
@@ -35,7 +36,7 @@
     }
 
     .courses > .container-flex > .mcse, .courses > .container-flex > .mcsa {
-        margin: 20px 20px 70px 20px ;
+        margin: 20px 20px 20px 20px ;
     }
 
     .experience > .container > .headers{
