@@ -96,7 +96,7 @@ Courses
     cursor: pointer;
 }
 
-.courses > .container-flex > .mcseexams, .courses > .container-flex > .mcsaexams{
+.courses > .container-flex .mcseexams, .courses > .container-flex .mcsaexams{
     display: none;
 }
 

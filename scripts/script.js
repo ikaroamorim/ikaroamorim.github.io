@@ -1,14 +1,12 @@
 $(document).ready(function () {
     $(window).scroll(function(){
         if($(window).scrollTop() > $(window).innerHeight()){
-            console.log("Executou")
             $("#navbar").addClass("nav-fixed");
             $("#menumobile").addClass("nav-fixed");
         }else{
             $("#navbar").removeClass("nav-fixed");
             $("#menumobile").removeClass("nav-fixed");
         }
-        console.log($(window).scrollTop());
     })
 
     $("#btn-1").on("click", function(){
@@ -43,7 +41,6 @@ $(document).ready(function () {
 
     $("#menu-btn").on("click", function(){
         $('#menu-items').toggle(400, function(){
-            /*$('#navreplace').css("height","300px");*/
         });
     })
 

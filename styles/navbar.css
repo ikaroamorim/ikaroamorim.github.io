@@ -57,8 +57,7 @@ nav>.menu>ul>li>a:hover{
     width: 100%;
     height: 100px;
     text-align: center;
-
-    
+    background-color: #006064;
 }
 
 .navreplace > .menumobile> i{
