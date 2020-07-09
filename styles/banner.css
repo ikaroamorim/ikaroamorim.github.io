@@ -85,11 +85,12 @@ header{
 .scroll-arrow{
     position: absolute;
     font-size: 50px;
-    bottom: 20px;
+    bottom: 0px;
     right: 50%;
-    transform: translate(50%);
+    transform: translate(50%,0);
     color: #ccc;
 }
+
 
 
 nav{
