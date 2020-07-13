@@ -87,17 +87,13 @@ Courses
 }
 
 .courses > .container-flex > .mcse {
-    margin: 140px 0;
+    margin: 40px 0;
     cursor: pointer;
 }
 
-.courses > .container-flex > .mcsa{
-    margin: 140px 0;
+.courses > .container-flex > .mcse {
+    margin: 40px 0;
     cursor: pointer;
-}
-
-.courses > .container-flex .mcseexams, .courses > .container-flex .mcsaexams{
-    display: none;
 }
 
 .courses .wraper{
@@ -108,8 +104,49 @@ Courses
     margin-bottom: 20px;
 }
 
+.courses h3{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 40px 20px;
+    color: #006064;
+}
+
+.courses .line {
+    width: 40%;
+    height: 1px;
+    background-color: #006064;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .courses .container-flex h3{
     width: calc(90% - 200px);
+}
+
+.courses .danki{
+    background-image: url("../images/courses-danki.png");
+    width: 200px;
+    height: 78px;
+    margin: 20px 0 40px 0;
+    vertical-align: middle;
+}
+
+
+.courses .texto{
+    width: calc(90% - 200px);
+    vertical-align: middle;
+}
+
+.courses .texto h4{
+    margin: 0 20px;
+    color: #006064;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.courses .texto p{
+    margin: 10px 20px;
+    color: #155;
 }
 
 /*
