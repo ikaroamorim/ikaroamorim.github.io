@@ -39,6 +39,15 @@
         margin: 20px 20px 20px 20px ;
     }
 
+    .courses > .container > .line{
+        display: none;
+    }
+
+    .courses > .container > h3{
+        text-align: center;
+        width: 100%;
+    }
+
     .experience > .container > .headers{
         display: none;
     }
@@ -49,13 +58,13 @@
 
     .experience > .container > .contents > .contents-item{
         display:block;
-        height: 1000px;
+        height: auto;
         text-align: center;
     }
 
     .experience > .container > .contents > .contents-item > .contents-logo{
-        height: 400px;
-        width: 400px;
+        height: 200px;
+        width: 200px;
         text-align: center;
         margin: 0 auto;
         background-color: #ccc;
@@ -65,8 +74,32 @@
     .experience > .container > .contents > .contents-item > .contents-texto{
         display: block;
         width: 100%;
-        height: 600px;
+        min-height: 200px;
         background-color: #ccc;
+    }
+
+
+    .projects .projects-container .project-wrapper {
+        text-align: center;
+        width: 95%;
+        margin: 20px auto;
+         
+    }
+
+    .projects .projects-container .project-wrapper img{
+        display: block;
+        width: 100%;
+        margin: 15px 0;
+
+    } 
+    
+    .projects .projects-container .project-wrapper .texto{
+        display: block;
+        width: 100%;
+    }
+
+    .projects .projects-container .project-wrapper .texto h4{
+        text-align: center;
     }
         
 

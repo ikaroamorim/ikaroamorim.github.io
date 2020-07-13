@@ -320,6 +320,8 @@ Projetos
 
 .projects .projects-container .project-wrapper .texto p{
     color: #777;
+    text-indent: 50px;
+    text-align: justify;
 }
 
 /*Não exibir o placeholder até a criação de novo projeto*/
