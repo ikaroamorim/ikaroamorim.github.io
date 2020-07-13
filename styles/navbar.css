@@ -22,12 +22,18 @@ nav{
 }
 
 nav>.logo{
-    color: whitesmoke;
+    
     margin-left: 30px;
 }
 
-nav>.logo>h2{
+nav>.logo>a{
+    text-decoration: none;
+}
+
+nav>.logo>a>h2{
     font-size: 48px;
+    color: whitesmoke;
+    
 }
 
 
