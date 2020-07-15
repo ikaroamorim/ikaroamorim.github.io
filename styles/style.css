@@ -11,6 +11,9 @@ html, body{
     background: #ccc;
 }
 
+a{
+    text-decoration: none;
+}
 
 section > .section-banner{
     background-color:#607d8b;

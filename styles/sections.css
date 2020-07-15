@@ -104,11 +104,14 @@ Courses
     margin-bottom: 20px;
 }
 
-.courses h3{
+.courses h3, .courses a{
     display: inline-block;
     vertical-align: middle;
     margin: 40px 20px;
     color: #006064;
+}
+.courses .certificado{
+    margin: 0 20px; 
 }
 
 .courses .line {
@@ -123,14 +126,23 @@ Courses
     width: calc(90% - 200px);
 }
 
-.courses .danki{
-    background-image: url("../images/courses-danki.png");
+.courses .course-logo{
     width: 200px;
     height: 78px;
     margin: 20px 0 40px 0;
     vertical-align: middle;
 }
+.courses .danki{
+    background-image: url("../images/courses-danki.png");
+}
 
+.courses .alura{
+    background-image: url("../images/courses-alura.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
 
 .courses .texto{
     width: calc(90% - 200px);
