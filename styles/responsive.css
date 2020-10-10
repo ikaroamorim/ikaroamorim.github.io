@@ -5,6 +5,10 @@
         display: none;
     }
 
+    header > .banner-filter > .banner-content h3{
+        font-size: 32px;
+    }
+    
     .navreplace > .menumobile{
         display: block;
     }
