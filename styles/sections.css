@@ -81,20 +81,20 @@ Courses
     background-size: cover;
 }
 
+.courses > .container{
+    text-align: center;
+}
+
 .courses .logo{
     width: 200px;
     height: 200px;
 }
 
-.courses > .container-flex > .mcse {
+.courses > .container-flex > .mcse , .courses > .container-flex > .mcsa, .courses > .container-flex > .ms100 {
     margin: 40px 0;
     cursor: pointer;
 }
 
-.courses > .container-flex > .mcse {
-    margin: 40px 0;
-    cursor: pointer;
-}
 
 .courses .wraper{
     display: flex;
