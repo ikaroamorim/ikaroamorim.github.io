@@ -52,6 +52,10 @@ $(document).ready(function () {
         $('#mcsaexams').toggle(1000)
     })
 
+    $("#modal-close-btn").on("click", function (){
+        $("#modal").hide()
+    })
+
 
 
 
